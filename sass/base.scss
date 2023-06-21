@@ -1,0 +1,16 @@
+$color-primary: #17243a;
+$color-secondary: #4e5c74;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Epilogue", sans-serif;
+}
