@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+
+  &-btn {
+    text-decoration: none;
+    color: $color-primary;
+    font-size: 1.6rem;
+    font-weight: $fw-bold;
+    border: 1.5px solid $color-primary;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      color: #fff;
+      background-color: $color-primary;
+      text-decoration: none;
+      scale: 1.05;
+    }
+  }
+}
