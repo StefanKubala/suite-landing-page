@@ -122,3 +122,50 @@ html {
       background-color: #17243a;
       text-decoration: none;
       scale: 1.05; }
+
+.review {
+  background-color: #17243a;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  height: 50rem;
+  position: relative;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+  border-radius: 2rem; }
+  .review-img {
+    background-image: url(../img/image-jeremy-large.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 100%;
+    background-size: contain;
+    height: 108%;
+    transform: translate(0px, -4rem);
+    grid-column: 1/2;
+    grid-row: 1/2; }
+    .review-img::after {
+      content: "";
+      background-image: url(../img/pattern-curved-line-2.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 20rem;
+      left: 85%;
+      width: 100%;
+      height: 5.5rem; }
+  .review-text {
+    padding: 8rem 8rem 8rem 4rem; }
+    .review-text-heading {
+      font-size: 4.5rem;
+      font-weight: normal; }
+    .review-text-span {
+      font-weight: 700; }
+    .review-text-quotes {
+      font-size: 2rem;
+      margin: 4rem 0;
+      color: #89919d; }
+    .review-text-name {
+      font-size: 2rem; }
+    .review-text-position {
+      font-size: 1.6rem;
+      color: #89919d; }
