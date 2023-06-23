@@ -9,6 +9,11 @@ footer {
   padding-top: 30rem;
   padding-bottom: 10rem;
 
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
   &-copyright {
     font-size: 1.5rem;
     margin: 0;

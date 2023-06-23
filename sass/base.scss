@@ -3,6 +3,11 @@ $color-secondary: #89919d;
 
 $fw-bold: 700;
 
+$bp-xlarge: 1200px;
+$bp-large: 992px;
+$bp-medium: 768px;
+$bp-small: 576px;
+
 *,
 *::before,
 *::after {
@@ -20,4 +25,22 @@ html {
 .container {
   padding-left: 0rem;
   padding-right: 0rem;
+}
+
+@media only screen and (max-width: $bp-large) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  html {
+    font-size: 37%;
+  }
+}
+
+@media only screen and (max-width: $bp-small) {
+  html {
+    font-size: 34%;
+  }
 }
